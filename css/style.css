@@ -17,3 +17,28 @@ li,
 img {
   cursor: pointer;
 }
+
+button {
+  padding: 7px 16px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #07bdeb;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+button:hover {
+  background-color: #009ec6;
+}
+
+button:active {
+  background-color: #07bdeb;
+  box-shadow: 0 3px #999;
+  transform: translateY(2px);
+}
+
+#admForm {
+  display: none;
+}
